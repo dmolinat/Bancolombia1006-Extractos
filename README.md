@@ -16,4 +16,5 @@ Solución de generación de extractos dado el número de documento.
 5. Entrar a la carpeta que contiene manage.py: >*cd extractos*.
 6. Correr el servidor y realizar pruebas: >*python manage.py runserver*.
 
-PD: Recuerde que el extracto se descargará en la carpeta Downloads de su ordenador. 
+PD: Recuerde que el extracto se descargará en la carpeta Downloads o Descargas de su ordenador. 
+
