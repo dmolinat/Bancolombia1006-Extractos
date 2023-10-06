@@ -2,7 +2,7 @@
 Solución de generación de extractos dado el número de documento.
 
 ## Requisitos.
-1. Poseer python3.
+1. Poseer python3 y pip instalado.
 
 ## Cómo probar la página.
 1. Clonar repositorio (Se puede realizar por GitHub o comandos git)
