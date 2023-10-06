@@ -1,0 +1,71 @@
+h1{
+    font-family: "Helvetica";
+}
+
+.logo-head{
+    margin: none;
+    max-width: 10%;
+}
+
+body {
+    background: whitesmoke;
+    color: black;
+}
+
+nav {
+    font-family: "sans-serif";
+    text-decoration-color: whitesmoke;
+    display: flex;
+    background: #272626;
+    position: sticky;  
+    align-items: center; 
+    justify-content: center; 
+    top: 0px;
+    cursor: pointer; 
+}
+
+ul{
+    width: 50%; 
+    display: flex; 
+}
+
+ul li{
+    list-style: none; 
+    border: 2px solid #ddd
+}
+
+li{
+    border-bottom: whitesmoke;
+    float: left;
+    display: inline;
+    padding: 8px 16px;
+}
+
+
+a:link{
+    color: whitesmoke;
+}
+
+a:hover { 
+    color: rgb(202, 79, 202); 
+}
+
+a:visited{
+    color: rgb(245, 245, 97);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+button{
+    color: black;
+    border-radius: 15px;
+    background-color: rgb(255, 251, 0);
+    outline: 2px solid rgb(255, 251, 0);
+    font-family: Arial;
+    font-size: medium;
+}
