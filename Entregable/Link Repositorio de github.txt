@@ -1,0 +1,5 @@
+Leer README.md para correcto funcionamiento de la aplicacion.
+https://github.com/dmolinat/Bancolombia1006-Extractos
+
+PD: En el GitHub también estará la carpeta con codigos sql del
+entregable y el gestor de SQLite.

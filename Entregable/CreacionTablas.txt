@@ -1,0 +1,40 @@
+1. Abrir con SQLBrowser la base de datos que está en la carpeta
+extractos, se llama: db.sqlite3.
+
+En la pestaña Execute SQL, ejecutar:
+
+Tabla usuario_usuario:
+
+CREATE TABLE "usuario_usuario" (
+	"identificacion"	varchar(50) NOT NULL,
+	PRIMARY KEY("identificacion")
+);
+==================================================================
+Tabla cuenta_cuenta:
+
+CREATE TABLE "cuenta_cuenta" (
+	"n_cuenta"	varchar(50) NOT NULL,
+	"tipo_cuenta"	varchar(20) NOT NULL,
+	"saldo"	real NOT NULL,
+	"titular_id"	varchar(50) NOT NULL UNIQUE,
+	FOREIGN KEY("titular_id") REFERENCES "usuario_usuario"("identificacion") 
+							ON DELETE CASCADE  
+	DEFERRABLE INITIALLY DEFERRED, 
+	PRIMARY KEY("n_cuenta")
+);
+===================================================================
+Tabla movimiento_movimiento:
+
+CREATE TABLE "movimiento_movimiento" (
+	"id"	integer NOT NULL,
+	"fecha"	date NOT NULL,
+	"valor"	real NOT NULL,
+	"n_cuenta_id"	varchar(50) NOT NULL,
+	PRIMARY KEY("id" AUTOINCREMENT),
+	FOREIGN KEY("n_cuenta_id") 
+REFERENCES "cuenta_cuenta"("n_cuenta") 
+	ON DELETE CASCADE
+DEFERRABLE INITIALLY DEFERRED
+); 
+
+ 
