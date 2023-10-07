@@ -14,7 +14,7 @@ Solución de generación de extractos dado el número de documento.
 3. Una vez esté en la carpeta raiz del proyecto (cd Bancolombia1006-Extractos) ejecutar: >*poetry shell*
 4. Instalar las dependencias ejecutando: >*poetry install*.
 5. Entrar a la carpeta que contiene manage.py: >*cd extractos*.
-6. Correr el servidor y realizar pruebas: >*python manage.py runserver*.
+6. Correr el servidor y realizar pruebas: >*python manage.py runserver*. (Está corriendo en el puerto 8000)
 
 PD: Recuerde que el extracto se descargará en la carpeta Downloads o Descargas de su ordenador. 
 
